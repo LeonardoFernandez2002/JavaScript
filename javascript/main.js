@@ -4,7 +4,7 @@ import catalogoProductos from "./stock.js";
 
 const contenedorProductos = document.getElementById('contenedor-productos');
 const contendorCarrito = document.getElementById('carrito-contenedor')
-
+const catalogoProductos = document.getElementById('catalogo')
 const botonVaciar = document.getElementById('vaciar-carrito');
 const contadorCarrito = document.getElementById('contadorCarrito');
 const precioTotal = document.getElementById('precioTotal');
