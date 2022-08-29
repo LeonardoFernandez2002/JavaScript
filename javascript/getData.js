@@ -1,4 +1,4 @@
-fetch( '../json/stock.json')
+fetch('javascript/stock.json')
     .then((resp) => resp.json())
     .then( stock =>{
         stock.forEach(post => {
@@ -6,7 +6,7 @@ fetch( '../json/stock.json')
         });
     })
 
-const API = "../json/stock.json";
+const API = "javascript/stock.json";
 
 export const getData = async() => {
     const response = await fetch(API);
