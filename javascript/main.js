@@ -1,5 +1,6 @@
 
 import { getData } from "./getData.js";
+import catalogoProductos from "./stock.js";
 
 const contenedorProductos = document.getElementById('contenedor-productos');
 const contendorCarrito = document.getElementById('carrito-contenedor')

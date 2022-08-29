@@ -28,3 +28,5 @@ const catalogoProductos = [
     Precio: 2500, 
     img: './imagenes/triturado.jpeg' },
 ];
+
+export default catalogoProductos;
